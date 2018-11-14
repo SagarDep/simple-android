@@ -15,6 +15,8 @@ class ReportsScreen(context: Context, attrs: AttributeSet) : LinearLayout(contex
 
     if (isInEditMode) {
       return
+    } else {
+      throw IllegalStateException("SENTRY ENVIRONMENTS SETUP")
     }
   }
 }
